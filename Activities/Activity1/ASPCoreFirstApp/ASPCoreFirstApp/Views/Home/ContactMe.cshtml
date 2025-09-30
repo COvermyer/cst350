@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Contact Me";
+}
+<style>
+    #contact-form{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #contact-form input, textarea{
+        width: 90%;
+        margin: 0 auto;
+    }
+</style>
+
+<h1>@ViewData["Title"]</h1>
+<div id="contact-form">
+    <form>
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email</label><br />
+        <input type="text" id="email" name="email" required /><br /><br />
+
+        <label for="subject">Subject</label><br />
+        <input type="text" id="subject" name="subject" required /><br /><br />
+
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+        <button type="submit">Send</button>
+        <button type="reset">Cancel</button>
+    </form>
+</div>
