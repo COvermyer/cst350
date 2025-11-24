@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\cst350\\Activities\\Activity3\\RegisterAndLoginApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity3\\registerandloginapp\\registerandloginapp\\models\\usersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\models\\usersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity3\\registerandloginapp\\registerandloginapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity3\\registerandloginapp\\registerandloginapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersDAO.cs",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity3\\RegisterAndLoginApp\\RegisterAndLoginApp\\Models\\UsersDAO.cs",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Models\\UsersDAO.cs",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity3\\RegisterAndLoginApp\\RegisterAndLoginApp\\Models\\UsersDAO.cs",
+              "RelativeToolTip": "RegisterAndLoginApp\\Models\\UsersDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T09:31:31.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity3\\RegisterAndLoginApp\\RegisterAndLoginApp\\Program.cs",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Program.cs",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity3\\RegisterAndLoginApp\\RegisterAndLoginApp\\Program.cs",
+              "RelativeToolTip": "RegisterAndLoginApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T03:19:54.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity3\\RegisterAndLoginApp\\RegisterAndLoginApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity3\\RegisterAndLoginApp\\RegisterAndLoginApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "RegisterAndLoginApp\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T07:31:39.84Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

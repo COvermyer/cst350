@@ -1,0 +1,45 @@
+﻿@model ProductsApp.Models.ProductViewModel
+@{
+    var item = Model;
+}
+
+<div class="card" style="width: 18rem">
+    @if (!string.IsNullOrEmpty(item.ImageURL))
+    { // Determine card image
+        <img class="card-img-top" src="/images/@item.ImageURL" alt="Product Image" onerror="this.onerror=null;this.src='/images/no_image.png';" />
+    }
+    else
+    {
+        <span>No Image Available</span>
+    }
+
+    <div class="card-body">
+        <h5 class="card-title">
+            @Html.DisplayFor(modelItem => item.Name)
+        </h5>
+        <p class="card-text">
+            @Html.DisplayNameFor(modelItem => item.Description):
+            @Html.DisplayFor(modelItem => item.Description)
+        </p>
+        <p class="card-text">
+            @Html.DisplayNameFor(modelItem => item.FormattedPrice):
+            @Html.DisplayFor(modelItem => item.FormattedPrice)
+        </p>
+        <p class="card-text">
+            @Html.DisplayNameFor(modelItem => item.FormattedEstimatedTax):
+            @Html.DisplayFor(modelItem => item.FormattedEstimatedTax)
+        </p>
+        <p class="card-text">
+            @Html.DisplayNameFor(modelItem => item.FormattedDateTime):
+            @Html.DisplayFor(modelItem => item.FormattedDateTime)
+        </p>
+
+        <div class="btn-group" role="group">
+            <a href="#" class="btn btn-warning edit-product" data-id="@item.Id">Edit</a>
+            @{// Html.ActionLink("Edit", "ShowUpdateProductForm", new { id = item.Id, data_id= item.Id }, new { @class = "btn btn-warning edit-product"})
+            }
+            @Html.ActionLink("Details", "ShowProduct", new { id = item.Id }, new { @class = "btn btn-info" })
+            @Html.ActionLink("Delete", "DeleteProduct", new { id = item.Id }, new { @class = "btn btn-danger", onclick = "return confirm('Are you sure?');" })
+        </div>
+    </div> <!--  end CARD BODY -->
+</div> <!-- end CARD -->

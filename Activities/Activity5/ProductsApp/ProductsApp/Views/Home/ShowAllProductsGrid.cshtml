@@ -1,0 +1,37 @@
+﻿@model IEnumerable<ProductsApp.Models.ProductViewModel>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4" data-id="@item.Id">
+                @Html.Partial("_ProductCard", item)
+            </div>
+        }
+    </div>
+</div>
+
+<div class="modal fade" id="editProductModal" tabindex="-1" role="dialog" aria-labelledby="editProductModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content p-3">
+            <!-- MODAL CONTENT INSERTS HERE -->
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/modalHandler.js"></script>
+	<script src="~/js/formHandler.js"></script>
+    <script src="~/js/productForm.js"></script>
+    <script>
+        $(document).ready(function () {
+            var taxRate = '@ViewBag.TaxRate';
+            bindEditProductEvent(taxRate);
+            bindFormSubmission();
+        });
+    </script>
+}

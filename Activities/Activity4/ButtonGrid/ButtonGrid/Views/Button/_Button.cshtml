@@ -1,0 +1,6 @@
+﻿@model ButtonGrid.Models.ButtonModel
+
+<button type="submit" name="id" value="@Model.Id">
+	<img src="/img/@Model.ButtonImage" alt="Button" />
+	<div>@Model.Id, @Model.ButtonState</div>
+</button>

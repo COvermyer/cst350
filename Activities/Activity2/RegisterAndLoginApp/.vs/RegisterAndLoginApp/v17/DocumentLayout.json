@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity2\\registerandloginapp\\registerandloginapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity2\\registerandloginapp\\registerandloginapp\\models\\usercollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\models\\usercollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity2\\registerandloginapp\\registerandloginapp\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity2\\registerandloginapp\\registerandloginapp\\views\\user\\loginsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\views\\user\\loginsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity2\\registerandloginapp\\registerandloginapp\\views\\user\\membersonly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\views\\user\\membersonly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity2\\registerandloginapp\\registerandloginapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity2\\registerandloginapp\\registerandloginapp\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity2\\registerandloginapp\\registerandloginapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|c:\\git\\cst350\\activities\\activity2\\registerandloginapp\\registerandloginapp\\filters\\sessioncheckfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF804B2-4429-4A8B-A982-25A50594235D}|RegisterAndLoginApp\\RegisterAndLoginApp.csproj|solutionrelative:registerandloginapp\\filters\\sessioncheckfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginSuccess.cshtml",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Views\\User\\LoginSuccess.cshtml",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Views\\User\\LoginSuccess.cshtml",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Views\\User\\LoginSuccess.cshtml",
+              "RelativeToolTip": "RegisterAndLoginApp\\Views\\User\\LoginSuccess.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T06:11:36.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserCollection.cs",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Models\\UserCollection.cs",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Models\\UserCollection.cs",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Models\\UserCollection.cs",
+              "RelativeToolTip": "RegisterAndLoginApp\\Models\\UserCollection.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwC8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T04:54:51.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Models\\UserModel.cs",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Models\\UserModel.cs",
+              "RelativeToolTip": "RegisterAndLoginApp\\Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T06:03:49.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "RegisterAndLoginApp\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T05:30:46.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "RegisterAndLoginApp\\Models\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T05:22:09.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RegisterAndLoginApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T05:15:19.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MembersOnly.cshtml",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Views\\User\\MembersOnly.cshtml",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Views\\User\\MembersOnly.cshtml",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Views\\User\\MembersOnly.cshtml",
+              "RelativeToolTip": "RegisterAndLoginApp\\Views\\User\\MembersOnly.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T05:06:43.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SessionCheckFilter.cs",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Filters\\SessionCheckFilter.cs",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Filters\\SessionCheckFilter.cs",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Filters\\SessionCheckFilter.cs",
+              "RelativeToolTip": "RegisterAndLoginApp\\Filters\\SessionCheckFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T04:47:41.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "RegisterAndLoginApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity2\\RegisterAndLoginApp\\RegisterAndLoginApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "RegisterAndLoginApp\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAmwAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:31:32.916Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+﻿@model IEnumerable<ProductsApp.Models.ProductViewModel>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FormattedPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FormattedDateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageURL)
+            </th>
+            <th>
+                Thumbnails
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FormattedEstimatedTax)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FormattedPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FormattedDateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageURL)
+            </td>
+            <td>
+                @if (!string.IsNullOrEmpty(item.ImageURL))
+                {
+                    <img src="/images/@item.ImageURL" alt="Product Image" width="140px" onerror="this.onerror=null;this.src='/images/no_image.png';"/> 
+                } else {
+                    <span>No Image available</span>   
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FormattedEstimatedTax)
+            </td>
+            <td>
+                <div class="btn-group" role="group">
+                        @Html.ActionLink("Edit", "ShowUpdateProductForm", new { id = item.Id }, new { @class = "btn btn-warning" })
+                        @Html.ActionLink("Details", "ShowProduct", new { id = item.Id }, new { @class = "btn btn-info" })
+                        @Html.ActionLink("Delete", "DeleteProduct", new { id = item.Id }, new { @class = "btn btn-danger", onclick = "return confirm('Are you sure?');" })
+                </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

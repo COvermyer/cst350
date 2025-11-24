@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Notate Verses";
+}
+<h1>@ViewData["Title"]</h1>
+<div class="chapterSelector">
+    <label for="bookId">Book</label>
+    <select id="bookId" class="bookId" name="bookId" 
+        data-selected-book="@(Context.Request.Query["bookId"].FirstOrDefault() ?? "1")">
+        <!-- Dynamically added by JS -->
+    </select>
+
+    <label for="chapterNumber">Chapter</label>
+    <select id="chapterNumber" class="chapterNumber" name="chapterNumber"
+        data-selected-chapter="@(Context.Request.Query["chapterNumber"].FirstOrDefault() ?? "1")">
+        <!-- Dynamically added by JS -->
+    </select>
+
+    <label for="verseNumber">Verse</label>
+    <select id="verseNumber" class="verseNumber" name="verseNumber"
+        data-selected-verse="@(Context.Request.Query["verseNumber"].FirstOrDefault() ?? "1")">
+        <!-- Dynamically added by JS -->
+    </select>
+</div>
+
+<div id="verseText" style="margin-top:20px; font-size:1.2em;">Example Text</div>
+
+<div class="editor-container">
+    <form>
+        <label for="note-area">Notes:</label>
+        <textarea id="note-area" class="note-area"></textarea>
+
+        <div class="d-flex justify-content-end gap-2">
+			<button id="save-note" class="btn btn-primary">Save</button>
+            <button id="delete-note" class="btn btn-danger">Delete</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="~/js/notateVerses.js"></script>
+    <script src="~/js/notes.js"></script>
+}

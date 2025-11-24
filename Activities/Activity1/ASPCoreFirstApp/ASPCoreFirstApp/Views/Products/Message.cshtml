@@ -1,0 +1,25 @@
+﻿@{
+	// Add title to page
+	ViewData["Title"] = "Important Message";
+}
+<h1>@ViewData["Title"]</h1>
+<p>This is a controller interaction</p>
+
+@{
+	// Check name
+	if (ViewData["Name"] != null)
+	{
+		<h3>Hello @ViewData["Name"]</h3>
+		// <p>Personality Value: @ViewData["Personality"]</p>
+
+		// Check personality value
+		if (ViewData["Personality"] != null && Convert.ToInt32(ViewData["Personality"]) > 5)
+		{
+			<h3>You are a friendly person.</h3>
+		}
+		else if (ViewData["Personality"] != null && Convert.ToInt32(ViewData["Personality"]) < 5)
+		{
+			<h3>You are tolerated here but not loved.</h3>
+		}
+	}
+}

@@ -1,0 +1,105 @@
+﻿@model IEnumerable<ButtonGrid.Models.ButtonModel>
+<link rel="stylesheet" href="~/css/buttons.css"/>
+<h2>The time is @DateTime.Now</h2>
+<br/>
+<form asp-action="ButtonClick">
+	<div class="container">
+		@for (int i = 0; i < Model.Count(); i++)
+		{
+			if (i % 5 == 0)
+			{
+				<div style="width: 100%;"></div>
+			}
+
+			var button = Model.ElementAt(i);
+			<div class="game-button" data-id="@button.Id">
+				@Html.Partial("_Button", button)
+			</div>
+		}
+	</div>
+</form>
+
+@{
+	bool stateMatch = true; // Assume states match until we find a mismatch
+	int state = Model.ElementAt(0).ButtonState;
+	for (int i = 1; i < Model.Count(); i++) // We have already checked the first element
+	{
+		if (Model.ElementAt(i).ButtonState != state)
+		{ // if a mismatch is found, set stateMatch to false and break to preserve resources.
+			stateMatch = false;
+			break;
+		}
+	}
+
+	// Display message based on whether all button states match
+	if (stateMatch)
+	{
+				//<h3>Congrats! All buttons are in the same state: @state</h3>
+	}
+	else
+	{
+				//<h3>Buttons are in different states. Try to match the colors!</h3>
+	}
+}
+
+@section Scripts {
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(document).on('mousedown', ".game-button button", function (e) {
+				e.preventDefault();
+				var buttonId = $(this).val();
+				switch (e.which) {
+					case 1:
+						// Left click
+						doLeftClickEvent(buttonId);
+						break;
+					case 2:
+						// Middle click - do nothing
+						break;
+					case 3:
+						// Right click
+						doRightClickEvent(buttonId);
+						break;
+					default:
+						// Unknown mousedown trigger - Do nothing
+						break;
+				}
+			});
+
+			function doLeftClickEvent(buttonId) {
+				$.ajax({
+					type: "POST",
+					url: "/Button/PartialPageUpdate",
+					data: { id: buttonId },
+					success: function (response) {
+						var buttonDiv = $('.game-button[data-id="' + buttonId + '"]');
+						buttonDiv.html(response);
+					},
+					error: function (xhr, status, error) {
+						alert("An error occurred: " + error);
+					}
+				});
+			}
+
+			function doRightClickEvent(buttonId) {
+				$.ajax({
+					type: "POST",
+					url: "Button/RightClickPartialPageUpdate",
+					data: { id: buttonId },
+					success: function (response) {
+						var buttonDiv = $('.game-button[data-id="' + buttonId + '"]');
+						buttonDiv.html(response);
+					},
+					error: function (xhr, status, error) {
+						alert("An error occurred: " + error);
+					}
+				});
+			}
+
+			$(document).on('contextmenu', ".game-button button", function (e) {
+				e.preventDefault(); // suppress context menu
+			});
+		});
+	</script>
+}

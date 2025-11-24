@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\cst350\\Activities\\Activity4\\ButtonGrid\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1375E605-08BF-4423-AE5E-B885694C994F}|ButtonGrid\\ButtonGrid.csproj|c:\\git\\cst350\\activities\\activity4\\buttongrid\\buttongrid\\views\\button\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1375E605-08BF-4423-AE5E-B885694C994F}|ButtonGrid\\ButtonGrid.csproj|solutionrelative:buttongrid\\views\\button\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1375E605-08BF-4423-AE5E-B885694C994F}|ButtonGrid\\ButtonGrid.csproj|c:\\git\\cst350\\activities\\activity4\\buttongrid\\buttongrid\\controllers\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1375E605-08BF-4423-AE5E-B885694C994F}|ButtonGrid\\ButtonGrid.csproj|solutionrelative:buttongrid\\controllers\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1375E605-08BF-4423-AE5E-B885694C994F}|ButtonGrid\\ButtonGrid.csproj|c:\\git\\cst350\\activities\\activity4\\buttongrid\\buttongrid\\views\\button\\_button.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1375E605-08BF-4423-AE5E-B885694C994F}|ButtonGrid\\ButtonGrid.csproj|solutionrelative:buttongrid\\views\\button\\_button.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Button.cshtml",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity4\\ButtonGrid\\ButtonGrid\\Views\\Button\\_Button.cshtml",
+              "RelativeDocumentMoniker": "ButtonGrid\\Views\\Button\\_Button.cshtml",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity4\\ButtonGrid\\ButtonGrid\\Views\\Button\\_Button.cshtml",
+              "RelativeToolTip": "ButtonGrid\\Views\\Button\\_Button.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T08:19:55.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ButtonController.cs",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity4\\ButtonGrid\\ButtonGrid\\Controllers\\ButtonController.cs",
+              "RelativeDocumentMoniker": "ButtonGrid\\Controllers\\ButtonController.cs",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity4\\ButtonGrid\\ButtonGrid\\Controllers\\ButtonController.cs",
+              "RelativeToolTip": "ButtonGrid\\Controllers\\ButtonController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:12:39.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\git\\cst350\\Activities\\Activity4\\ButtonGrid\\ButtonGrid\\Views\\Button\\Index.cshtml",
+              "RelativeDocumentMoniker": "ButtonGrid\\Views\\Button\\Index.cshtml",
+              "ToolTip": "C:\\git\\cst350\\Activities\\Activity4\\ButtonGrid\\ButtonGrid\\Views\\Button\\Index.cshtml",
+              "RelativeToolTip": "ButtonGrid\\Views\\Button\\Index.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwGUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T07:55:58.971Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

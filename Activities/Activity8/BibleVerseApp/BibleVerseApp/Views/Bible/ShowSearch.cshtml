@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Search Bible Verses";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="search-container mb-4">
+    <form id="search-form">
+		<label for="search-query" class="form-label">Enter keyword or phrase:</label>
+		<div class="d-flex gap-2">
+			<input type="text" id="search-query" class="form-control" placeholder="e.g., love, faith">
+
+            <input type="checkbox" id="inOldTestament" name="inOldTestament"/>
+            <label for="inOldTestament">Old Testament</label>
+
+            <input type="checkbox" id="inNewTestament" name="inNewTestament" />
+            <label for="inNewTestament">New Testament</label>
+
+			<input type="submit" id="search-btn" class="btn btn-primary" value="Search"/>
+		</div>
+    </form>
+    
+</div>
+
+<div id="search-results">
+    <div id="search-results-total"></div>
+    <ul class="list-group">
+        <!-- Search results will be dynamically added here -->
+    </ul>
+</div>
+<div id="pagination-container" class="mt-3"></div>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="~/js/search.js"></script>
+}
